@@ -31,7 +31,7 @@ Your website stress testing tool is designed to perform various types of stress 
 
 1. Open a terminal or command prompt.
 2. Navigate to the directory containing the script.
-3. Run the script by executing `python script_name.py`.
+3. Run the script by executing `python CybeHacker.py`.
 4. Follow the on-screen instructions to specify attack parameters.
 
 ### 3. Available Attack Methods
@@ -55,19 +55,19 @@ This attack method sends a sequence of HTTP requests at a slow pace, exploiting 
 #### a. SYN Flood Attack
 
 ```
-python script_name.py -d target_ip_or_domain -Synflood -T threads -t timeout -i spoofed_ip
+python CybeHacker.py -d target_ip_or_domain -Synflood -T threads -t timeout -i spoofed_ip
 ```
 
 #### b. HTTP Request Flood Attack
 
 ```
-python script_name.py -d target_ip_or_domain -Request -T threads -t timeout -s sleep_time
+python CybeHacker.py -d target_ip_or_domain -Request -T threads -t timeout -s sleep_time
 ```
 
 #### c. Slow HTTP Attack
 
 ```
-python script_name.py -d target_ip_or_domain -Pyslow -p port -T threads -t timeout -s sleep_time
+python CybeHacker.py -d target_ip_or_domain -Pyslow -p port -T threads -t timeout -s sleep_time
 ```
 
 ### 5. Additional Options
